@@ -18,11 +18,19 @@ namespace CourseLibrary.API.Controllers
             _courseLibraryRepository = courseLibraryRepository ?? 
                 throw new ArgumentNullException(nameof(courseLibraryRepository));
         }
+
         [HttpGet()]
         public IActionResult GetAuthors()
         {
             var authorsFrmoRepo = _courseLibraryRepository.GetAuthors();
             return new JsonResult(authorsFrmoRepo);
+        }
+
+        [HttpGet("{authorId}")]
+        public IActionResult GetAuthor(Guid authorId)
+        {
+            var author = _courseLibraryRepository.GetAuthor(authorId);
+            return new JsonResult(author);
         }
     }
 }
