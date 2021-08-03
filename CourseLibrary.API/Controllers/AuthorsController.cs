@@ -27,6 +27,7 @@ namespace CourseLibrary.API.Controllers
         }
 
         [HttpGet()]
+        [HttpHead]
         public ActionResult<AuthorDto> GetAuthors()
         {
             var authorsFromRepo = _courseLibraryRepository.GetAuthors();
