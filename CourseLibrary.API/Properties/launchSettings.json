@@ -14,7 +14,7 @@
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
-      "applicationUrl": "http://localhost:51044"
+      "applicationUrl": "http://localhost:52200"
     },
     "CourseLibrary.API": {
       "commandName": "Project",
