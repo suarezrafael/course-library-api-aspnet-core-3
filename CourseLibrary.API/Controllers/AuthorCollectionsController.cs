@@ -31,7 +31,7 @@ namespace CourseLibrary.API.Controllers
         [FromRoute]
         [ModelBinder(BinderType = typeof(ArrayModelBinder))] IEnumerable<Guid> ids)
         {
-            if (ids == null)
+            if (ids == null) 
             {
                 return BadRequest();
             }
