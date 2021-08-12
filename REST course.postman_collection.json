@@ -600,12 +600,12 @@
 					"raw": "{\n\t\"firstName\" : \"Jane\",\n\t\"lastName\" : \"Skewers\",\n\t\"dateOfBirth\" : \"1968-03-04T00:00:00\",\n\t\"mainCategory\": \"Rum\"\n}"
 				},
 				"url": {
-					"raw": "http://localhost:51044/api/authors/25141d83-4584-4487-a306-0441695d8e24",
+					"raw": "http://localhost:52200/api/authors/25141d83-4584-4487-a306-0441695d8e24",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
-					"port": "51044",
+					"port": "52200",
 					"path": [
 						"api",
 						"authors",
