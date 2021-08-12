@@ -56,6 +56,10 @@ Essas instruções permitirão que você obtenha uma cópia do projeto em opera�
 - Execute as requisições HTTP cadastradas. 
 - Voce pode executar as requisições tanto no POSTMAN como na própria página do swagger.
 
+## 📷 Wiki e imagens do projeto rodando
+
+- Acesse aqui a Wiki do projeto[Wiki](https://github.com/suarezrafael/course-library-api-aspnet-core-3/wiki)
+
 ## 📌 Versão
 
 Usei [GitKraken](https://www.gitkraken.com/git-client) para controle de versão. Para as versões disponíveis, observe as [tags neste repositório](https://github.com/suarezrafael/api-asp-net-core-compasso/tags). 
